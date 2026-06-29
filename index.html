@@ -1,1292 +1,1122 @@
 <!DOCTYPE html>
-<!doctype html>
-<html class="no-js" lang="en">
-
-
-<!-- Mirrored from azmerawbekele.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jun 2026 10:28:20 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Azmeraw Bekele Import and Export</title>
-    <meta name="title" content="Azmeraw Bekele Import and Export" />
-    <meta name="keyword" content="Azmeraw Bekele Import & Export, Ethiopia, import, export, manufacturing, transport, hospitality, fuel station, economic development" />
-    <meta name="description" content="Azmeraw Bekele Import & Export is a leading Ethiopian company with a diversified portfolio of businesses, including import, export, manufacturing, transport, hospitality, and fuel station operations. The company is committed to innovation, community engagement, and contributing to Ethiopia's economic development.">
-    <meta name="author" content="Gasha Digital Technology">
-    <meta property="type" content="website" />
-    <meta property="url" content="index.html" />
-    <meta property="image" content="assets/images/logos/02_AzmerawBekele_Web.Logo_V1.png" />
-    <link rel="canonical" href="services/index.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azmeraw Bekele Import &amp; Export</title>
+  <meta name="description" content="Ethiopia's trusted multi-sector enterprise — import/export, transportation, manufacturing, steel bars, and fuel stations." />
 
-    <!-- Fav Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/fav/site.webmanifest">
-    <link rel="mask-icon" href="assets/images/fav/safari-pinned-tab.svg" color="#8ec63f">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/custom-animate.css">
-    <link rel="stylesheet" href="assets/css/icomoon.css">
-    <link rel="stylesheet" href="assets/css/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
-    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logos/02_AzmerawBekele_Web.Logo_Inverse_V1.png" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/color-1.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #1a1a2e;
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { text-decoration: none; transition: color .2s, opacity .2s; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
 
+    /* ─── VARIABLES ─── */
+    :root {
+      --green: #8EC63F;
+      --green-dark: #6da528;
+      --navy: #0a1628;
+      --navy-deep: #060e1c;
+      --gray: #6b7280;
+      --light-bg: #f8f9fa;
+    }
 
+    /* ─── NAV ─── */
+    #navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      transition: all .35s;
+    }
+    .nav-topbar {
+      background: rgba(0,0,0,.38);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      backdrop-filter: blur(4px);
+      transition: all .35s;
+    }
+    .nav-topbar-inner {
+      max-width: 1200px; margin: 0 auto;
+      padding: 7px 32px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .topbar-left { display: flex; gap: 24px; align-items: center; }
+    .topbar-left a, .topbar-left span {
+      color: rgba(255,255,255,.8); font-size: 12px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .topbar-left svg { width: 12px; height: 12px; flex-shrink: 0; }
+    .topbar-right { display: flex; gap: 12px; align-items: center; }
+    .topbar-right a {
+      color: rgba(255,255,255,.7); display: flex; align-items: center; justify-content: center;
+      width: 28px; height: 28px;
+    }
+    .topbar-right a:hover { color: #fff; opacity: 1; }
+    .topbar-right a svg { width: 14px; height: 14px; }
+    .btn-quote-top {
+      background: var(--green); color: #fff !important;
+      font-size: 12px; font-weight: 600;
+      padding: 5px 16px; border-radius: 20px;
+      margin-left: 8px; white-space: nowrap;
+    }
+    .btn-quote-top:hover { background: var(--green-dark); }
+
+    .nav-main-row {
+      max-width: 1200px; margin: 0 auto;
+      padding: 18px 32px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo img {
+      height: 46px; object-fit: contain;
+      filter: brightness(0) invert(1);
+      transition: filter .35s;
+    }
+    .nav-links { display: flex; gap: 26px; align-items: center; }
+    .nav-links a {
+      font-size: 14px; font-weight: 500; color: rgba(255,255,255,.9);
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--green); }
+    .nav-phone {
+      display: flex; align-items: center; gap: 6px;
+      color: rgba(255,255,255,.85) !important; font-size: 13px; font-weight: 500;
+    }
+    .nav-phone svg { width: 14px; height: 14px; }
+
+    /* scrolled state */
+    #navbar.scrolled .nav-topbar { max-height: 0; overflow: hidden; padding: 0; border: none; opacity: 0; }
+    #navbar.scrolled {
+      background: rgba(255,255,255,.97);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 1px 32px rgba(0,0,0,.08);
+    }
+    #navbar.scrolled .nav-main-row { padding: 12px 32px; }
+    #navbar.scrolled .nav-logo img { filter: none; }
+    #navbar.scrolled .nav-links a { color: #374151; }
+    #navbar.scrolled .nav-links a:hover { color: var(--green); }
+    #navbar.scrolled .nav-phone { color: #374151 !important; }
+
+    /* mobile menu button */
+    .nav-burger { display: none; background: none; border: none; cursor: pointer; color: #fff; padding: 4px; }
+    #navbar.scrolled .nav-burger { color: #374151; }
+    .nav-burger svg { width: 24px; height: 24px; }
+
+    /* ─── HERO ─── */
+    #hero {
+      position: relative; height: 100vh; min-height: 620px; overflow: hidden;
+    }
+    .hero-slide {
+      position: absolute; inset: 0;
+      opacity: 0; transition: opacity .9s ease;
+      pointer-events: none;
+    }
+    .hero-slide.active { opacity: 1; pointer-events: auto; }
+    .hero-slide img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(105deg, rgba(10,22,40,.9) 38%, rgba(10,22,40,.3));
+    }
+    .hero-content {
+      position: absolute; inset: 0;
+      display: flex; align-items: center;
+      padding-top: 90px;
+    }
+    .hero-content-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px; width: 100%;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(142,198,63,.18); border: 1px solid rgba(142,198,63,.42);
+      color: var(--green); font-size: 12px; font-weight: 700;
+      letter-spacing: .08em; padding: 5px 16px; border-radius: 20px;
+      margin-bottom: 24px; backdrop-filter: blur(4px);
+    }
+    .slide-text { display: none; }
+    .slide-text.active { display: block; }
+    .hero-title {
+      font-size: clamp(2.2rem, 5vw, 4rem); font-weight: 800;
+      color: #fff; line-height: 1.1; max-width: 750px; margin-bottom: 20px;
+    }
+    .hero-body {
+      font-size: 16px; color: rgba(255,255,255,.8);
+      max-width: 560px; line-height: 1.72; margin-bottom: 36px; font-weight: 300;
+    }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--green); color: #fff;
+      padding: 14px 28px; border-radius: 50px;
+      font-weight: 600; font-size: 14px;
+      box-shadow: 0 8px 32px rgba(142,198,63,.35);
+      transition: background .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--green-dark); color: #fff; }
+    .btn-primary svg { width: 18px; height: 18px; }
+    .btn-outline-light {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,.12); color: #fff;
+      padding: 14px 28px; border-radius: 50px;
+      font-weight: 600; font-size: 14px;
+      border: 1px solid rgba(255,255,255,.22);
+      backdrop-filter: blur(8px);
+      transition: background .2s;
+    }
+    .btn-outline-light:hover { background: rgba(255,255,255,.2); color: #fff; }
+
+    /* hero controls */
+    .hero-controls {
+      position: absolute; bottom: 32px; right: 40px; z-index: 20;
+      display: flex; gap: 10px; align-items: center;
+    }
+    .hero-btn {
+      width: 44px; height: 44px; border-radius: 50%; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background .2s;
+    }
+    .hero-btn-prev {
+      background: rgba(255,255,255,.15); color: #fff;
+      border: 1px solid rgba(255,255,255,.25); backdrop-filter: blur(6px);
+    }
+    .hero-btn-prev:hover { background: rgba(255,255,255,.25); }
+    .hero-btn-next { background: var(--green); color: #fff; }
+    .hero-btn-next:hover { background: var(--green-dark); }
+    .hero-btn svg { width: 20px; height: 20px; }
+    .hero-counter { color: rgba(255,255,255,.7); font-size: 13px; font-weight: 500; }
+
+    .hero-dots {
+      position: absolute; bottom: 40px; left: 50%;
+      transform: translateX(-50%); z-index: 20;
+      display: flex; gap: 8px;
+    }
+    .hero-dot {
+      width: 8px; height: 8px; border-radius: 4px;
+      background: rgba(255,255,255,.4); border: none; cursor: pointer;
+      padding: 0; transition: all .35s;
+    }
+    .hero-dot.active { width: 28px; background: var(--green); }
+
+    /* ─── STATS ─── */
+    #stats {
+      background: #fff; position: relative; z-index: 20;
+      margin-top: -44px; border-radius: 24px 24px 0 0;
+      box-shadow: 0 -8px 48px rgba(0,0,0,.13);
+    }
+    .stats-inner {
+      max-width: 1200px; margin: 0 auto; padding: 40px 32px;
+      display: grid; grid-template-columns: repeat(4,1fr);
+    }
+    .stat-item {
+      text-align: center; padding: 24px 16px;
+      border-right: 1px solid #f0f0f0;
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-number { font-size: 40px; font-weight: 800; color: var(--navy); line-height: 1; }
+    .stat-label { font-size: 11px; font-weight: 700; color: var(--gray); text-transform: uppercase; letter-spacing: .1em; margin-top: 6px; }
+
+    /* ─── ABOUT ─── */
+    #about { background: var(--light-bg); padding: 96px 0; overflow: hidden; }
+    .about-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; gap: 64px; align-items: center; flex-wrap: wrap;
+    }
+    .about-images {
+      flex: 0 0 auto; width: min(460px, 100%); position: relative;
+    }
+    .about-img-main {
+      width: 100%; height: 380px; object-fit: cover;
+      border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,.14);
+    }
+    .about-img-secondary {
+      position: absolute; bottom: -28px; right: -24px;
+      width: 200px; height: 180px;
+      object-fit: cover; border-radius: 16px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.18);
+      border: 4px solid #fff;
+    }
+    .about-badge {
+      position: absolute; top: 24px; left: -20px;
+      background: var(--green); border-radius: 16px;
+      padding: 14px 20px; text-align: center;
+      box-shadow: 0 8px 24px rgba(142,198,63,.4);
+      color: #fff;
+    }
+    .about-badge-num { font-size: 26px; font-weight: 800; line-height: 1; }
+    .about-badge-text { font-size: 11px; font-weight: 600; letter-spacing: .05em; margin-top: 2px; }
+    .about-text { flex: 1; min-width: 280px; padding-top: 32px; }
+    .section-eyebrow {
+      font-size: 12px; font-weight: 700; letter-spacing: .12em;
+      color: var(--green); text-transform: uppercase; margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 800;
+      color: var(--navy); margin-bottom: 20px; line-height: 1.2;
+    }
+    .section-body {
+      color: #4b5563; line-height: 1.75; font-size: 15px; margin-bottom: 20px;
+    }
+    .ventures-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 10px 24px; margin-bottom: 32px;
+    }
+    .venture-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; color: #374151; font-weight: 500;
+    }
+    .venture-item svg { color: var(--green); flex-shrink: 0; width: 16px; height: 16px; }
+
+    /* ─── WHY CHOOSE US ─── */
+    #why {
+      padding: 96px 0;
+      background-image: url('assets/images/bg/work-process-v2-bg.jpg');
+      background-size: cover; background-position: center; position: relative;
+    }
+    #why::before {
+      content: ''; position: absolute; inset: 0; background: rgba(10,22,40,.82);
+    }
+    .why-inner {
+      position: relative; z-index: 5;
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+    }
+    .why-header { text-align: center; margin-bottom: 56px; }
+    .why-header .section-eyebrow { color: var(--green); }
+    .why-header .section-title { color: #fff; font-size: clamp(1.8rem,3vw,2.4rem); margin-bottom: 14px; }
+    .why-header p { color: rgba(255,255,255,.6); max-width: 580px; margin: 0 auto; font-size: 15px; line-height: 1.6; }
+    .why-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 32px;
+    }
+    .why-card {
+      background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
+      border-radius: 20px; padding: 36px 28px; text-align: center;
+      backdrop-filter: blur(12px); transition: background .3s;
+    }
+    .why-card:hover { background: rgba(255,255,255,.1); }
+    .why-icon-wrap {
+      width: 80px; height: 80px; margin: 0 auto 20px;
+      background: rgba(142,198,63,.15); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .why-icon-wrap img { width: 48px; height: 48px; object-fit: contain; }
+    .why-card h3 { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .why-card p { color: rgba(255,255,255,.65); font-size: 14px; line-height: 1.7; }
+
+    /* ─── SERVICES ─── */
+    #services { padding: 96px 0; background: #fff; }
+    .services-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+    .services-top {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      margin-bottom: 48px; flex-wrap: wrap; gap: 20px;
+    }
+    .services-top-text .section-title { font-size: clamp(1.6rem,2.5vw,2.2rem); margin-bottom: 8px; }
+    .btn-outline-green {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid var(--green); color: var(--green);
+      padding: 11px 24px; border-radius: 50px; font-weight: 600; font-size: 14px;
+      white-space: nowrap; transition: all .2s;
+    }
+    .btn-outline-green:hover { background: var(--green); color: #fff; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
+      gap: 24px;
+    }
+    .service-card {
+      border-radius: 20px; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,.08);
+      transition: transform .25s, box-shadow .25s; position: relative;
+      display: block;
+    }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,0,0,.14); }
+    .service-card img { width: 100%; height: 210px; object-fit: cover; display: block; }
+    .service-overlay {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(10,22,40,.9) 0%, transparent 100%);
+      padding: 48px 18px 18px;
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .service-title { color: #fff; font-weight: 700; font-size: 14px; }
+    .service-arrow {
+      width: 32px; height: 32px; border-radius: 50%; background: var(--green);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .service-arrow svg { width: 16px; height: 16px; color: #fff; }
+
+    /* ─── MEMBERSHIPS ─── */
+    #memberships { padding: 72px 0; background: var(--light-bg); }
+    .memberships-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+    .section-center { text-align: center; margin-bottom: 40px; }
+    .section-center .section-title { font-size: 1.8rem; }
+    .logos-flex {
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; align-items: center;
+    }
+    .logo-chip {
+      padding: 12px 20px; background: #fff; border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.07);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .logo-chip img { height: 52px; max-width: 120px; object-fit: contain; filter: grayscale(30%); }
+
+    /* ─── TESTIMONIALS ─── */
+    #testimonials { padding: 96px 0; background: #fff; }
+    .testi-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+    .testi-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 28px;
+    }
+    .testi-card {
+      background: var(--light-bg); border: 1px solid #f0f0f0;
+      border-radius: 20px; padding: 28px 24px; position: relative;
+    }
+    .testi-quote {
+      position: absolute; top: 16px; right: 20px;
+      font-family: Georgia, serif; font-size: 48px; line-height: 1;
+      color: var(--green); opacity: .2;
+    }
+    .testi-stars { display: flex; gap: 3px; margin-bottom: 14px; }
+    .testi-stars svg { width: 14px; height: 14px; color: #f59e0b; fill: #f59e0b; }
+    .testi-text { color: #4b5563; font-size: 14px; line-height: 1.72; margin-bottom: 20px; }
+    .testi-author { display: flex; align-items: center; gap: 12px; }
+    .testi-author img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid #e5e7eb; }
+    .testi-name { font-weight: 700; color: var(--navy); font-size: 14px; }
+    .testi-role { color: var(--green); font-size: 12px; font-weight: 500; }
+
+    /* ─── PARTNERS ─── */
+    #partners { padding: 72px 0; background: var(--navy); overflow: hidden; }
+    .partners-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+    .partners-header { text-align: center; margin-bottom: 40px; }
+    .partners-header .section-eyebrow { color: var(--green); }
+    .partners-header .section-title { color: #fff; font-size: 1.8rem; margin-bottom: 6px; }
+    .partners-header p { color: rgba(255,255,255,.55); font-size: 14px; }
+    .marquee-track { overflow: hidden; }
+    .marquee-row {
+      display: flex; gap: 24px; align-items: center;
+      width: max-content;
+      animation: marqueeScroll 30s linear infinite;
+    }
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .partner-chip {
+      flex-shrink: 0; padding: 12px 20px;
+      background: rgba(255,255,255,.06); border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .partner-chip img {
+      height: 48px; max-width: 120px; object-fit: contain;
+      filter: brightness(0) invert(1); opacity: .6;
+    }
+
+    /* ─── CTA ─── */
+    #cta {
+      padding: 96px 0;
+      background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+      position: relative; overflow: hidden;
+    }
+    #cta::before {
+      content: ''; position: absolute;
+      top: -80px; right: -80px;
+      width: 360px; height: 360px;
+      background: rgba(255,255,255,.08); border-radius: 50%;
+    }
+    #cta::after {
+      content: ''; position: absolute;
+      bottom: -60px; left: -60px;
+      width: 260px; height: 260px;
+      background: rgba(0,0,0,.08); border-radius: 50%;
+    }
+    .cta-inner {
+      position: relative; z-index: 5;
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      text-align: center;
+    }
+    .cta-eyebrow {
+      font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: rgba(255,255,255,.7); margin-bottom: 16px;
+    }
+    .cta-title {
+      font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 800;
+      color: #fff; max-width: 720px; margin: 0 auto 36px; line-height: 1.25;
+    }
+    .cta-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #fff; color: var(--navy);
+      padding: 14px 32px; border-radius: 50px;
+      font-weight: 700; font-size: 15px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.15);
+      transition: box-shadow .2s;
+    }
+    .btn-white:hover { box-shadow: 0 12px 40px rgba(0,0,0,.22); color: var(--navy); }
+    .btn-white svg { width: 18px; height: 18px; }
+    .btn-outline-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: #fff;
+      padding: 14px 32px; border-radius: 50px;
+      font-weight: 700; font-size: 15px;
+      border: 2px solid rgba(255,255,255,.45);
+      transition: background .2s;
+    }
+    .btn-outline-white:hover { background: rgba(255,255,255,.12); color: #fff; }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--navy-deep); padding: 72px 0 32px; color: rgba(255,255,255,.55); }
+    .footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+      gap: 40px; margin-bottom: 56px;
+    }
+    .footer-logo img { height: 48px; object-fit: contain; margin-bottom: 18px; }
+    .footer-tagline { font-size: 13px; line-height: 1.7; max-width: 260px; margin-bottom: 20px; }
+    .footer-social { display: flex; gap: 10px; }
+    .social-link {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: rgba(255,255,255,.06);
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid rgba(255,255,255,.1);
+      transition: background .2s; color: rgba(255,255,255,.55);
+    }
+    .social-link:hover { background: var(--green); color: #fff; }
+    .social-link svg { width: 14px; height: 14px; }
+    .footer-col-title {
+      color: #fff; font-weight: 700; font-size: 11px;
+      letter-spacing: .1em; text-transform: uppercase; margin-bottom: 20px;
+    }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { color: rgba(255,255,255,.55); font-size: 13px; }
+    .footer-links a:hover { color: var(--green); }
+    .footer-contact-list { display: flex; flex-direction: column; gap: 16px; }
+    .footer-contact-item { display: flex; gap: 10px; align-items: flex-start; }
+    .footer-contact-item svg { color: var(--green); margin-top: 2px; flex-shrink: 0; width: 14px; height: 14px; }
+    .footer-contact-item a { color: rgba(255,255,255,.7); font-size: 13px; display: block; }
+    .footer-contact-item a:hover { color: var(--green); }
+    .footer-address-text { color: rgba(255,255,255,.6); font-size: 13px; line-height: 1.7; margin: 0; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.08); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px; font-size: 12px;
+    }
+    .footer-bottom a { color: rgba(255,255,255,.55); }
+    .footer-bottom .accent { color: var(--green); font-weight: 600; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 900px) {
+      .topbar-left .topbar-address { display: none; }
+      .stats-inner { grid-template-columns: repeat(2,1fr); }
+      .stat-item:nth-child(2) { border-right: none; }
+      .about-inner { flex-direction: column; gap: 40px; }
+      .about-images { width: 100%; max-width: 480px; margin: 0 auto; }
+      .about-img-secondary { right: 0; }
+      .about-badge { left: -10px; }
+      .why-grid { grid-template-columns: 1fr; gap: 20px; }
+      .testi-grid { grid-template-columns: 1fr; gap: 20px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .nav-burger { display: flex; }
+    }
+    @media (max-width: 600px) {
+      .services-top { flex-direction: column; align-items: flex-start; }
+      .stats-inner { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .nav-topbar { display: none; }
+      .hero-controls { right: 16px; bottom: 20px; }
+      .cta-buttons { flex-direction: column; align-items: center; }
+    }
+
+    /* Mobile nav drawer */
+    #mobile-nav {
+      display: none; flex-direction: column; gap: 0;
+      background: #fff; border-top: 1px solid #f0f0f0;
+      padding: 16px 32px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.1);
+    }
+    #mobile-nav.open { display: flex; }
+    #mobile-nav a {
+      color: #374151; font-size: 15px; font-weight: 500;
+      padding: 12px 0; border-bottom: 1px solid #f9f9f9;
+    }
+    #mobile-nav a:hover { color: var(--green); }
+  </style>
 </head>
 
-<body class="body-dark-bg">
+<body>
 
-    <!-- preloader -->
-    <div id="preloader">
-        <div id="loading-center">
-            <div class="loader">
-                <div class="loader-outter"></div>
-                <div class="loader-inner"></div>
-            </div>
+  <!-- ══════════════════════════════════ NAV ══════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-topbar">
+      <div class="nav-topbar-inner">
+        <div class="topbar-left">
+          <span class="topbar-address">
+            <!-- map-pin icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Churchill Avenue, Eshetu Mamo Building – F8 Office 801
+          </span>
+          <a href="mailto:info@azmerawbekele.com">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            info@azmerawbekele.com
+          </a>
         </div>
-    </div>
-    <!-- preloader-end -->
-
-    <!-- Scroll-top -->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <i class="icon-up"></i>
-    </button>
-    <!-- Scroll-top-end-->
-
-    <div class="fix">
-        <header class="main-header main-header-two">
-            <div id="sticky-header" class="menu-area">
-                <div class="main-header-two__outer">
-                    <div class="logo-box-two">
-                        <a href="index.html"><img id="image_card" src="assets/images/logos/02_AzmerawBekele_Web.Logo_Inverse_V1.png" width="80" alt="Logo"></a>
-                    </div>
-                    <div class="menu-area__inner">
-                        <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
-                        <div class="menu-wrap">
-                            <nav class="menu-nav">
-                                <div class="main-header-two__inner">
-                                    <div class="main-header-two__top">
-                                        <div class="main-header-two__top-pattern" style="background-image: url(assets/img/pattern/header-v2-pattern.html);">
-                                        </div>
-
-                                        <div class="main-header-two__top-inner">
-                                            <div class="main-header-two__top-left">
-                                                <div class="header-contact-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div class="icon-box"><span class="icon-pin"></span>
-                                                            </div>
-                                                            <p>Churchill Avenue, Eshetu Mamo Building - F8 Office 801</p>
-                                                        </li>
-                                                        <li>
-                                                            <div class="icon-box"><span class="icon-paper-plane"></span>
-                                                            </div>
-                                                            <p><a href="mailto:info@azmerawbekele.com">info@azmerawbekele.com</a>
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="main-header-two__top-right">
-                                                <div class="inner">
-                                                    <div class="header-social-links">
-                                                        <ul>
-                                                                                                                                <li><a href="https://www.facebook.com/azmerawimpex" target="_blank"><i class="fab fab fa-facebook-f"></i></a></li>
-                                                                                                                                <li><a href="https://www.linkedin.com/company/azmerawimpex/" target="_blank"><i class="fab fab fa-linkedin-in"></i></a></li>
-                                                                                                                                <li><a href="https://t.me/azmerawimpex" target="_blank"><i class="fab fab fa-telegram"></i></a></li>
-                                                                                                                    </ul>
-                                                    </div>
-
-                                                    <div class="btn-box">
-                                                        <a href="request/index.html">Request a Quote <span class="icon-right-arrow"></span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                                                        <div class="main-header-two__bottom">
-                                        <div class="main-header-two__bottom-left">
-                                            <div class="navbar-wrap main-menu">
-                                                <ul class="navigation">
-                                                                                                            <li class=" active">
-                                                            <a href="index.html">Home</a>
-                                                                                                                                                                                                                                            </li>
-                                                                                                            <li class="menu-item-has-children ">
-                                                            <a href="services/index.html">Services</a>
-                                                                                                                        <ul class='sub-menu'><li><a href='services/import-and-export.html' ><span class='p-0 m-0 fab fa 29888FITPlAo.svg'></span> &nbsp;&nbsp;Import And Export</a></li><li><a href='services/transportation.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Transportation</a></li><li><a href='services/manufacturing.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Manufacturing</a></li><li><a href='services/hotel-business.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Hotel Business</a></li><li><a href='services/fuel-stations.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Fuel Stations</a></li>                                                            </ul>                                                        </li>
-                                                                                                            <li class=" ">
-                                                            <a href="products/index.html">Products</a>
-                                                                                                                                                                                                                                            </li>
-                                                                                                            <li class="menu-item-has-children ">
-                                                            <a href="about/index.html">About Us</a>
-                                                                                                                        <ul class='sub-menu'><li><a href='about/our-history.html' ><span class='p-0 m-0 fab fa 39595baJP.svg'></span> &nbsp;&nbsp;Our History</a></li><li><a href='about/memberships.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Memberships</a></li><li><a href='about/partners.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Partners</a></li><li><a href='about/awards.html' ><span class='p-0 m-0 fab fa '></span> &nbsp;&nbsp;Awards</a></li><li><a href='about/testimonials.html' ><span class='p-0 m-0 fab fa 12120qyvg.svg'></span> &nbsp;&nbsp;Testimonials</a></li>                                                            </ul>                                                        </li>
-                                                                                                            <li class=" ">
-                                                            <a href="news/index.html">News</a>
-                                                                                                                                                                                                                                            </li>
-                                                                                                            <li class=" ">
-                                                            <a href="contact-us/index.html">Contact Us</a>
-                                                                                                                                                                                                                                            </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="main-header-two__bottom-right">
-                                            <div class="search-box">
-                                                <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                                            </div>
-
-                                            <div class="contact-box">
-                                                <div class="icon-box">
-                                                    <span class="icon-out-call"></span>
-                                                </div>
-                                                <div class="text">
-                                                    <p><a href="tel:+251111275398">+251 111 275 398</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <!-- Mobile Menu  -->
-                    <div class="mobile-menu">
-                        <nav class="menu-box">
-                            <div class="close-btn"><i class="fas fa-times"></i></div>
-                            <div class="nav-logo">
-                                <a href="index.html"><img src="assets/images/logos/02_AzmerawBekele_Web.Logo_Inverse_V1.png" alt="Logo"></a>
-                            </div>
-                            <div class="menu-outer">
-                                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-                            </div>
-                            <div class="contact-info">
-                                <div class="icon-box"><span class="icon-telephone-handle-silhouette"></span></div>
-                                <p> <a href="tel:+251 111 275 398">+251 111 275 398</a></p>
-                            </div>
-                            <div class="social-links">
-                                <ul class="clearfix list-wrap">
-                                                                                <li><a href="https://www.facebook.com/azmerawimpex" target="_blank"><i class="fab fab fa-facebook-f"></i></a></li>
-                                                                                <li><a href="https://www.linkedin.com/company/azmerawimpex/" target="_blank"><i class="fab fab fa-linkedin-in"></i></a></li>
-                                                                                <li><a href="https://t.me/azmerawimpex" target="_blank"><i class="fab fab fa-telegram"></i></a></li>
-                                                                    </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="menu-backdrop"></div>
-
-                </div>
-            </div>
-        </header>
-
-        <!-- Slider -->
-        <section class="main-slider main-slider-two">
-    <div class="swiper-container thm-swiper__slider-two">
-
-        <div class="swiper-wrapper">
-         
-                            <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/9345ePE6sXy0tj.jpg);">
-                    </div>
-                    <div class="shape1"><img src="assets/images/shape/slider-v2-shape1.png" alt=""></div>
-                    <div class="shape2"><img src="assets/images/shape/slider-v2-shape2.png" alt=""></div>
-                    <div class="shape3"><img src="assets/images/shape/slider-v2-shape3.png" alt=""></div>
-                    <div class="shape4"><img class="float-bob-x" src="assets/images/shape/slider-v2-shape4.png" alt="">
-                    </div>
-                    <div class="big-title">
-                        <h2>Azmeraw Bekele</h2>
-                    </div>
-                    <div class="container">
-                        <div class="main-slider-two__single">
-                            <div class="main-slider-two__content">
-                                <div class="title">
-                                    <h2>Experience Ethiopian Agriculture Teste</h2>
-                                </div>
-                                <div class="sub-title">
-                                    <p>Experience the unique flavors and qualities of Ethiopian coffee, oilseeds, and pulses. Our products are grown in the rich soil of the Ethiopian highlands, and nurtured by generations of farming expertise. We bring you the taste of tradition, delivered with modern efficiency.</p>
-                                </div>
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="about/index.html">
-                                        <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                            <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/461517qtQFJpKb8h.jpg);">
-                    </div>
-                    <div class="shape1"><img src="assets/images/shape/slider-v2-shape1.png" alt=""></div>
-                    <div class="shape2"><img src="assets/images/shape/slider-v2-shape2.png" alt=""></div>
-                    <div class="shape3"><img src="assets/images/shape/slider-v2-shape3.png" alt=""></div>
-                    <div class="shape4"><img class="float-bob-x" src="assets/images/shape/slider-v2-shape4.png" alt="">
-                    </div>
-                    <div class="big-title">
-                        <h2>Azmeraw Bekele</h2>
-                    </div>
-                    <div class="container">
-                        <div class="main-slider-two__single">
-                            <div class="main-slider-two__content">
-                                <div class="title">
-                                    <h2>Your Import Experts for Materials </h2>
-                                </div>
-                                <div class="sub-title">
-                                    <p>From the ground up, we empower your projects with seamless imports of essential Tyres, Steel, Trucks, and Construction Machinery.</p>
-                                </div>
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="about/index.html">
-                                        <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                            <div class="swiper-slide">
-                    <div class="image-layer" style="background-image: url(assets/images/banner/93589l1tuChLW.jpg);">
-                    </div>
-                    <div class="shape1"><img src="assets/images/shape/slider-v2-shape1.png" alt=""></div>
-                    <div class="shape2"><img src="assets/images/shape/slider-v2-shape2.png" alt=""></div>
-                    <div class="shape3"><img src="assets/images/shape/slider-v2-shape3.png" alt=""></div>
-                    <div class="shape4"><img class="float-bob-x" src="assets/images/shape/slider-v2-shape4.png" alt="">
-                    </div>
-                    <div class="big-title">
-                        <h2>Azmeraw Bekele</h2>
-                    </div>
-                    <div class="container">
-                        <div class="main-slider-two__single">
-                            <div class="main-slider-two__content">
-                                <div class="title">
-                                    <h2>Taste the Tradition</h2>
-                                </div>
-                                <div class="sub-title">
-                                    <p>We bring you the finest Ethiopian coffee, crafted with generations of expertise and a love for the land from the sun-kissed highlands.</p>
-                                </div>
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="about/index.html">
-                                        <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    </div>
-
-        <!-- If we need navigation buttons -->
-        <div class="main-slider-two__wrap">
-            <div class="swiper-counter">
-                <div id="current">1</div>
-                <div id="total"></div>
-            </div>
+        <div class="topbar-right">
+          <a href="https://www.facebook.com/azmerawimpex" target="_blank" rel="noreferrer" title="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/azmerawimpex/" target="_blank" rel="noreferrer" title="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://t.me/azmerawimpex" target="_blank" rel="noreferrer" title="Telegram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+          </a>
+          <a href="request/index.html" class="btn-quote-top">Request a Quote →</a>
         </div>
-
-        <div class="swiper-nav-style1">
-            <div class="swiper-button-prev" id="main-slider-two__swiper-button-next">
-                <i class="icon-left-arrow-5" aria-hidden="true"></i>
-            </div>
-            <div class="swiper-button-next" id="main-slider-two__swiper-button-prev">
-                <i class="icon-right-arrow-5" aria-hidden="true"></i>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-        <!-- Short Bio -->
-        <!-- About Us - Onboarding -->
-<section class="about-two">
-    <div class="shape1 float-bob-x"><img src="assets/images/shape/about-v2-shape1.png" alt=""></div>
-    <div class="container">
-        <div class="row">
-            <!-- Short Biography Image -->
-            <div class="col-xl-6">
-                <div class="about-three__img">
-                    <div class="shape1"><img src="assets/img/shape/about-v3-shape1.html" alt=""></div>
-                    <div class="about-three__img1 wow fadeInLeft" data-wow-delay=".1s">
-                        <img src='assets/images/bio/733240DIbgJ.jpg'alt='Azmeraw Bekele About Azmeraw Bekele' >                    </div>
-                    <div class="about-three__img2 wow fadeInRight" data-wow-delay=".1s">
-                        <img src='assets/images/bio/69113AbjszMeyf.jpg'alt='Azmeraw Bekele About Imports' >                    </div>
-                    <div class="about-three__img-icon-box">
-                        <div class="round-text">
-                                            <div class="curved-circle-3 rotate-me">
-                                                14+ Years Experience
-                                            </div>
-                                        </div>
-                                        <div class="icon">
-                                            <img class="p-1" src="assets/images/stat/14555yHhZKB1d5.svg" alt="">
-                                        </div>                    </div>
-                </div>
-            </div>
-
-            <!-- Short Bio -->
-            <div class="col-xl-6">
-                <div class="about-two__content">
-                    <div class="sec-title-two">
-                                            <div class="sub-title">
-                            <h5>WE ARE A THRIVING ETHIOPIAN ENTERPRISE</h5>
-                        </div>
-                        <h3>A 20-year legacy rooted in experience.</h3>
-                                    </div>
-
-                    <div class="about-two__content-text">
-                        <p><p>Azmeraw Bekele Import &amp;&nbsp;<span style="font-size: 0.875rem;">Export&nbsp;</span><span style="font-size: 0.875rem;">has blossomed from humble beginnings to become a force in Ethiopia's business landscape. Guided by the vision of its founder, we've grown beyond imports, nurturing diverse ventures from bag manufacturing to coffee exports and beyond. Today, we stand as a testament to Ethiopian entrepreneurship, weaving threads of industry into a dynamic tapestry of success.</span></p> <p>Here are some of our diverse range of ventures: </p></p>
-                    </div>
-
-                    <div class="about-two__content-list">
-                                            <div class='row g-0'>
-                            <div class='col-lg-6 col-md-6'>
-                                <ul class='pq-list-check pq-about-us-check'>
-                                                                            <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Import business</p>
-                                        </li>
-                                                                            <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Manufacturing of PP bags</p>
-                                        </li>
-                                                                            <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Transport business</p>
-                                        </li>
-                                                                    </ul>
-                            </div>
-                            <div class='col-lg-6 col-md-6'>
-                                <ul class='pq-list-check pq-about-us-check'>
-                                                                            <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Hotel business</p>
-                                        </li>
-                                                                            <li>
-                                            <div class="icon-box">
-                                                <span class="icon-check-marked-1"></span>
-                                            </div>
-                                            <p>Fuel station businesses</p>
-                                        </li>
-                                                                    </ul>
-                            </div>
-                        </div>
-                    
-                    </div>
-
-                    <div class="about-two__content-bottom">
-                        <div class="btn-box">
-                            <a class="thm-btn" href="about/index.html">
-                                <span class="text-uppercase txt">Explore Our World</span> <i class="icon-right-arrow"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-        <!-- Statistics -->
-        <section class="fact-counter-two">
-    <div class="shape1 float-bob-y"><img src="assets/images/shape/cta-one__shape5.png" alt=""></div>
-    <div class="container">
-        <div class="row">
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="fact-counter-two__single">
-                        <div class="icon-box">
-                            <img src="assets/images/stat/14555yHhZKB1d5.svg" class="p-3" width="120" alt="icon">
-                        </div>
-                        <div class="fact-counter-two__single-inner">
-                            <h2 class="count"><span class="odometer" data-count="14"></span><span class="plus">+</span></h2>
-                            <div class="text">
-                                <p>Years Experience</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="fact-counter-two__single">
-                        <div class="icon-box">
-                            <img src="assets/images/stat/56559Ra0IYV5zDH.svg" class="p-3" width="120" alt="icon">
-                        </div>
-                        <div class="fact-counter-two__single-inner">
-                            <h2 class="count"><span class="odometer" data-count="6"></span><span class="plus">+</span></h2>
-                            <div class="text">
-                                <p>Services</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="fact-counter-two__single">
-                        <div class="icon-box">
-                            <img src="assets/images/stat/81998LPKxfSbIDA4.svg" class="p-3" width="120" alt="icon">
-                        </div>
-                        <div class="fact-counter-two__single-inner">
-                            <h2 class="count"><span class="odometer" data-count="11"></span><span class="plus">+</span></h2>
-                            <div class="text">
-                                <p>Products</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="fact-counter-two__single">
-                        <div class="icon-box">
-                            <img src="assets/images/stat/9160748xLtQGP.svg" class="p-3" width="120" alt="icon">
-                        </div>
-                        <div class="fact-counter-two__single-inner">
-                            <h2 class="count"><span class="odometer" data-count="500"></span><span class="plus">+</span></h2>
-                            <div class="text">
-                                <p>Satisfied Customers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </div>
-    </div>
-</section>
-        <!-- Features -->
-        <section class="work-process-two">
-    <div class="work-process-two__bg" style="background-image: url(assets/images/bg/work-process-v2-bg.jpg);"></div>
-    <div class="container">
-                <div class="sec-title-style3 text-center">
-            <div class="sub-title center">
-                <div class="icon">
-                    <img src="assets/images/logos/title-marker-2.png" alt="">
-                </div>
-                <h2 class="text-uppercase px-3">Why Choose US</h2>
-            </div>
-            <p class="text-white-50 pb-3">Here are some reasons why Azmeraw Bekele Import & Export company is inspired by the foundations of the following core features:</p>
-        </div>
-        <div class="row">
-                                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="work-process-two__single">
-                            <div class="work-process-two__single-icon">
-                                <div class="inner">
-                                    <span class="p-3"><img src="assets/images/bio/53013u5QXw3HMa7s.svg" alt="values" width="100"></span>
-                                </div>
-                            </div>
-
-                            <div class="work-process-two__single-text">
-                                <h2><a href="#">Vision</a></h2>
-                                <p>We envision becoming Ethiopia's leading oilseeds and cereals exporter by adhering to socially and environmentally responsible practices.</p>
-                            </div>
-                        </div>
-                    </div>
-                                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1000ms">
-                        <div class="work-process-two__single">
-                            <div class="work-process-two__single-icon">
-                                <div class="inner">
-                                    <span class="p-3"><img src="assets/images/bio/45266RiXaZcMr.svg" alt="values" width="100"></span>
-                                </div>
-                            </div>
-
-                            <div class="work-process-two__single-text">
-                                <h2><a href="#">Mission</a></h2>
-                                <p><p>To provide high-quality products and services at competitive prices through exceptional customer service and mutually beneficial partnerships.</p></p>
-                            </div>
-                        </div>
-                    </div>
-                                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1000ms">
-                        <div class="work-process-two__single">
-                            <div class="work-process-two__single-icon">
-                                <div class="inner">
-                                    <span class="p-3"><img src="assets/images/bio/422721nPMLslp9.svg" alt="values" width="100"></span>
-                                </div>
-                            </div>
-
-                            <div class="work-process-two__single-text">
-                                <h2><a href="#">Corporate Structure</a></h2>
-                                <p><p>We employ a well-structured organization that promotes accountability, efficiency, and the achievement of its vision and mission.</p></p>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-    </div>
-</section>
-        <!-- Services -->
-        <section class="project-three project-three--about">
-    <div class="team-three__shape1">
-        <img src="assets/images/shape/team-v3-shape2.png" alt="shape">
-    </div>
-    <div class="container">
-        <div class="project-three__top">
-            
-                    <div class="sec-title-style3 text-left pb-0">
-                        <div class="sub-title left">
-                            <div class="icon">
-                                <img src="assets/images/logos/title-marker.png" alt="">
-                            </div>
-                            <h3 class="text-uppercase px-3">What We Offer</h3>
-                        </div>
-                        <p class="text-black">Diverse Services for a Comprehensive Approach</p>
-                        <p class="text-black-50 pb-1"><p>We offer a range of services beyond traditional import and export, meeting the diverse needs of our clients.</p></p>
-                    </div>
-
-            <div class="btn-box">
-                <a class="thm-btn" href="services/index.html">
-                    <span class="txt">View All Services</span>
-                </a>
-            </div>
-        </div>
-
-
-        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 50,
-                "slidesPerView": 3,
-                "loop": true,
-                "pagination": {
-                    "el": "#project-three__pagination",
-                    "type": "bullets",
-                    "clickable": true
-                    },
-                "navigation": {
-                    "nextEl": "#team-one__swiper-button-next",
-                    "prevEl": "#team-one__swiper-button-prev"
-                },
-                "autoplay": { "delay": 5000 },
-                "breakpoints": {
-                    "0": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    },
-                    "375": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    },
-                    "575": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    },
-                    "768": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    },
-                    "992": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    },
-                    "1200": {
-                        "spaceBetween": 24,
-                        "slidesPerView": 1
-                    }
-                }
-            }'>
-            <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                            <!--Start Project Three Single-->
-                            <div class="project-three__single">
-                                <div class="project-three__single-img">
-                                    <div class="inner">
-                                        <img src="assets/images/services/53253tPYh.jpg" alt="azmeraw bekele Import and Export">
-                                        <div class="overlay-content">
-                                            <div class="overlay-icon">
-                                                <span>
-                                                    <img src="assets/images/services/38367SV6b9zHF.svg" alt="Import and Export">                                                </span>
-                                            </div>
-                                            <div class="icon-box">
-                                                <a href="services/import-and-export.html"><span class="icon-right-arrow-5"></span></a>
-                                            </div>
-                                            <div class="text-box text-uppercase">
-                                                <h5 class="pb-1">Import and Export</h5>
-                                                <h6><a href="services/import-and-export.html">Explore</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Project Three Single-->
-                        </div>
-                                        <div class="swiper-slide">
-                            <!--Start Project Three Single-->
-                            <div class="project-three__single">
-                                <div class="project-three__single-img">
-                                    <div class="inner">
-                                        <img src="assets/images/services/15496XqyQkOLmf.jpg" alt="azmeraw bekele Transportation">
-                                        <div class="overlay-content">
-                                            <div class="overlay-icon">
-                                                <span>
-                                                    <img src="assets/images/services/41518asZqJkDK.svg" alt="Transportation">                                                </span>
-                                            </div>
-                                            <div class="icon-box">
-                                                <a href="services/transportation.html"><span class="icon-right-arrow-5"></span></a>
-                                            </div>
-                                            <div class="text-box text-uppercase">
-                                                <h5 class="pb-1">Transportation</h5>
-                                                <h6><a href="services/transportation.html">Explore</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Project Three Single-->
-                        </div>
-                                        <div class="swiper-slide">
-                            <!--Start Project Three Single-->
-                            <div class="project-three__single">
-                                <div class="project-three__single-img">
-                                    <div class="inner">
-                                        <img src="assets/images/services/21396W4Z5asL0.jpg" alt="azmeraw bekele Manufacturing">
-                                        <div class="overlay-content">
-                                            <div class="overlay-icon">
-                                                <span>
-                                                    <img src="assets/images/services/698109gT65.svg" alt="Manufacturing">                                                </span>
-                                            </div>
-                                            <div class="icon-box">
-                                                <a href="services/manufacturing.html"><span class="icon-right-arrow-5"></span></a>
-                                            </div>
-                                            <div class="text-box text-uppercase">
-                                                <h5 class="pb-1">Manufacturing</h5>
-                                                <h6><a href="services/manufacturing.html">Explore</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Project Three Single-->
-                        </div>
-                                        <div class="swiper-slide">
-                            <!--Start Project Three Single-->
-                            <div class="project-three__single">
-                                <div class="project-three__single-img">
-                                    <div class="inner">
-                                        <img src="assets/images/services/45649LD7NI.jpg" alt="azmeraw bekele Steel Bars">
-                                        <div class="overlay-content">
-                                            <div class="overlay-icon">
-                                                <span>
-                                                    <img src="assets/images/services/23041lgdn.svg" alt="Steel Bars">                                                </span>
-                                            </div>
-                                            <div class="icon-box">
-                                                <a href="services/steel-bars.html"><span class="icon-right-arrow-5"></span></a>
-                                            </div>
-                                            <div class="text-box text-uppercase">
-                                                <h5 class="pb-1">Steel Bars</h5>
-                                                <h6><a href="services/steel-bars.html">Explore</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Project Three Single-->
-                        </div>
-                                        <div class="swiper-slide">
-                            <!--Start Project Three Single-->
-                            <div class="project-three__single">
-                                <div class="project-three__single-img">
-                                    <div class="inner">
-                                        <img src="assets/images/services/14776nfIwN32.jpg" alt="azmeraw bekele Fuel Stations">
-                                        <div class="overlay-content">
-                                            <div class="overlay-icon">
-                                                <span>
-                                                    <img src="assets/images/services/99167d36tZrEnO.svg" alt="Fuel Stations">                                                </span>
-                                            </div>
-                                            <div class="icon-box">
-                                                <a href="services/fuel-stations.html"><span class="icon-right-arrow-5"></span></a>
-                                            </div>
-                                            <div class="text-box text-uppercase">
-                                                <h5 class="pb-1">Fuel Stations</h5>
-                                                <h6><a href="services/fuel-stations.html">Explore</a></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Project Three Single-->
-                        </div>
-                            </div>
-        </div>
-        <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-pagination" id="project-three__pagination"></div> -->
-    </div>
-</section>
-<!--End Services Two-->
-        <!-- Memberships -->
-        <section class="brand-one brand-one--two">
-    <div class="big-title-box">membership</div>
-    <div class="sec-title-style3 text-center">
-        <div class="sub-title center">
-            <div class="icon">
-                <img src="assets/images/logos/title-marker.png" alt="">
-            </div>
-                        <h2 class="text-uppercase px-3">Memberships &amp; Accreditations </h2>
-        </div>
-        <p class="text-black-50">Explore our excellent network through trusted memberships</p>
+      </div>
     </div>
 
-   
-    <div class="container">
-        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                            "0": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 1
-                            },
-                            "375": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 1
-                            },
-                            "575": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 2
-                            },
-                            "767": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 3
-                            },
-                            "991": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 4
-                            },
-                            "1199": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 5
-                            }
-                        }}'>
-            <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/14462vS3D.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/14462vS3D.png" alt="#">
-                            </div>
-                        </div>
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/799064odbtX3IG6L.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/799064odbtX3IG6L.png" alt="#">
-                            </div>
-                        </div>
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/95453fw3RyWNiTFl.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/95453fw3RyWNiTFl.png" alt="#">
-                            </div>
-                        </div>
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/20718iImMovjsZ.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/20718iImMovjsZ.png" alt="#">
-                            </div>
-                        </div>
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/5386msIKdt8E4V.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/5386msIKdt8E4V.png" alt="#">
-                            </div>
-                        </div>
-                                        <div class="swiper-slide">
-                            <div class="img-box">
-                                <img src="assets/images/membership/82894UCrce02.png" width="100" alt="#">
-                            </div>
-                            <div class="img-box2">
-                                <img src="assets/images/membership/82894UCrce02.png" alt="#">
-                            </div>
-                        </div>
-                            </div>
+    <div class="nav-main-row">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/images/logos/02_AzmerawBekele_Web.Logo_Inverse_V1.png" alt="Azmeraw Bekele Import &amp; Export" />
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services/index.html">Services</a>
+        <a href="products/index.html">Products</a>
+        <a href="about/index.html">About Us</a>
+        <a href="news/index.html">News</a>
+        <a href="contact-us/index.html">Contact</a>
+        <a href="tel:+251111275398" class="nav-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.17 11a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 3.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+          +251 111 275 398
+        </a>
+      </div>
+      <button class="nav-burger" id="burger-btn" aria-label="Menu">
+        <svg id="burger-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg id="burger-icon-close" style="display:none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+
+    <div id="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="services/index.html">Services</a>
+      <a href="products/index.html">Products</a>
+      <a href="about/index.html">About Us</a>
+      <a href="news/index.html">News</a>
+      <a href="contact-us/index.html">Contact</a>
+      <a href="request/index.html">Request a Quote</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════ HERO ══════════════════════════════════ -->
+  <section id="hero">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" id="slide-0">
+      <img src="assets/images/banner/9345ePE6sXy0tj.jpg" alt="Ethiopian Agriculture" loading="eager" />
+      <div class="hero-overlay"></div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" id="slide-1">
+      <img src="assets/images/banner/461517qtQFJpKb8h.jpg" alt="Import Materials" loading="lazy" />
+      <div class="hero-overlay"></div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" id="slide-2">
+      <img src="assets/images/banner/93589l1tuChLW.jpg" alt="Ethiopian Coffee" loading="lazy" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-content-inner">
+        <div class="hero-badge">Est. 2003 · Global Trade Leaders</div>
+
+        <div class="slide-text active" id="text-0">
+          <h1 class="hero-title">Experience Ethiopian Agriculture Taste</h1>
+          <p class="hero-body">Experience the unique flavors and qualities of Ethiopian coffee, oilseeds, and pulses. Our products are grown in the rich soil of the Ethiopian highlands, and nurtured by generations of farming expertise. We bring you the taste of tradition, delivered with modern efficiency.</p>
+          <div class="hero-ctas">
+            <a href="about/index.html" class="btn-primary">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="about/index.html" class="btn-outline-light">Explore Our World</a>
+          </div>
         </div>
+
+        <div class="slide-text" id="text-1">
+          <h1 class="hero-title">Your Import Experts for Materials</h1>
+          <p class="hero-body">From the ground up, we empower your projects with seamless imports of essential Tyres, Steel, Trucks, and Construction Machinery.</p>
+          <div class="hero-ctas">
+            <a href="services/import-and-export.html" class="btn-primary">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="about/index.html" class="btn-outline-light">Explore Our World</a>
+          </div>
+        </div>
+
+        <div class="slide-text" id="text-2">
+          <h1 class="hero-title">Taste the Tradition</h1>
+          <p class="hero-body">We bring you the finest Ethiopian coffee, crafted with generations of expertise and a love for the land from the sun-kissed highlands.</p>
+          <div class="hero-ctas">
+            <a href="products/index.html" class="btn-primary">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="about/index.html" class="btn-outline-light">Explore Our World</a>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-        <!--Start Testimonials Two-->
-        <section class="testimonials-one">
-    <div class="testimonials-one__pattern"><img src="assets/images/pattern/testimonials-v1-pattern.png" alt="pattern">
+
+    <!-- Controls -->
+    <div class="hero-controls">
+      <button class="hero-btn hero-btn-prev" id="slide-prev" aria-label="Previous slide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+      <span class="hero-counter" id="slide-counter">1 / 3</span>
+      <button class="hero-btn hero-btn-next" id="slide-next" aria-label="Next slide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
     </div>
-    <div class="container">
-        <div class="sec-title-style3 text-center">
-            <div class="sub-title center">
-                <div class="icon">
-                    <img src="assets/images/logos/title-marker.png" alt="">
-                </div>
-                                <h2 class="text-uppercase px-3">What Our Clients Say About Us</h2>
+    <div class="hero-dots" id="hero-dots">
+      <button class="hero-dot active" data-slide="0"></button>
+      <button class="hero-dot" data-slide="1"></button>
+      <button class="hero-dot" data-slide="2"></button>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ STATS ══════════════════════════════════ -->
+  <section id="stats">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-number">14+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">6+</div>
+        <div class="stat-label">Services</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">11+</div>
+        <div class="stat-label">Products</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">500+</div>
+        <div class="stat-label">Satisfied Customers</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ ABOUT ══════════════════════════════════ -->
+  <section id="about">
+    <div class="about-inner">
+      <!-- images column -->
+      <div class="about-images">
+        <img class="about-img-main" src="assets/images/bio/733240DIbgJ.jpg" alt="Azmeraw Bekele Enterprise" />
+        <img class="about-img-secondary" src="assets/images/bio/69113AbjszMeyf.jpg" alt="Import Operations" />
+        <div class="about-badge">
+          <div class="about-badge-num">14+</div>
+          <div class="about-badge-text">Years Experience</div>
+        </div>
+      </div>
+      <!-- text column -->
+      <div class="about-text">
+        <p class="section-eyebrow">We Are a Thriving Ethiopian Enterprise</p>
+        <h2 class="section-title">A 20-year legacy rooted in experience.</h2>
+        <p class="section-body">Azmeraw Bekele Import &amp; Export has blossomed from humble beginnings to become a force in Ethiopia's business landscape. Guided by the vision of its founder, we've grown beyond imports, nurturing diverse ventures from bag manufacturing to coffee exports and beyond. Today, we stand as a testament to Ethiopian entrepreneurship, weaving threads of industry into a dynamic tapestry of success.</p>
+        <p class="section-body">Here are some of our diverse range of ventures:</p>
+        <div class="ventures-grid">
+          <div class="venture-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            Import business
+          </div>
+          <div class="venture-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            Hotel business
+          </div>
+          <div class="venture-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            Manufacturing of PP bags
+          </div>
+          <div class="venture-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            Fuel station businesses
+          </div>
+          <div class="venture-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            Transport business
+          </div>
+        </div>
+        <a href="about/index.html" class="btn-primary">
+          Explore Our World
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ WHY CHOOSE US ══════════════════════════════════ -->
+  <section id="why">
+    <div class="why-inner">
+      <div class="why-header">
+        <p class="section-eyebrow">Why Choose Us</p>
+        <h2 class="section-title">Core Principles That Drive Us</h2>
+        <p>Here are some reasons why Azmeraw Bekele Import &amp; Export company is inspired by the foundations of the following core features:</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="assets/images/bio/53013u5QXw3HMa7s.svg" alt="Vision" />
+          </div>
+          <h3>Vision</h3>
+          <p>We envision becoming Ethiopia's leading oilseeds and cereals exporter by adhering to socially and environmentally responsible practices.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="assets/images/bio/45266RiXaZcMr.svg" alt="Mission" />
+          </div>
+          <h3>Mission</h3>
+          <p>To provide high-quality products and services at competitive prices through exceptional customer service and mutually beneficial partnerships.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="assets/images/bio/422721nPMLslp9.svg" alt="Corporate Structure" />
+          </div>
+          <h3>Corporate Structure</h3>
+          <p>We employ a well-structured organization that promotes accountability, efficiency, and the achievement of its vision and mission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ SERVICES ══════════════════════════════════ -->
+  <section id="services">
+    <div class="services-inner">
+      <div class="services-top">
+        <div class="services-top-text">
+          <p class="section-eyebrow">What We Offer</p>
+          <h2 class="section-title">Diverse Services for a Comprehensive Approach</h2>
+          <p class="section-body">We offer a range of services beyond traditional import and export, meeting the diverse needs of our clients.</p>
+        </div>
+        <a href="services/index.html" class="btn-outline-green">View All Services</a>
+      </div>
+      <div class="services-grid">
+        <a href="services/import-and-export.html" class="service-card">
+          <img src="assets/images/services/53253tPYh.jpg" alt="Import and Export" />
+          <div class="service-overlay">
+            <span class="service-title">Import &amp; Export</span>
+            <span class="service-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+        <a href="services/transportation.html" class="service-card">
+          <img src="assets/images/services/15496XqyQkOLmf.jpg" alt="Transportation" />
+          <div class="service-overlay">
+            <span class="service-title">Transportation</span>
+            <span class="service-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+        <a href="services/manufacturing.html" class="service-card">
+          <img src="assets/images/services/21396W4Z5asL0.jpg" alt="Manufacturing" />
+          <div class="service-overlay">
+            <span class="service-title">Manufacturing</span>
+            <span class="service-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+        <a href="services/steel-bars.html" class="service-card">
+          <img src="assets/images/services/45649LD7NI.jpg" alt="Steel Bars" />
+          <div class="service-overlay">
+            <span class="service-title">Steel Bars</span>
+            <span class="service-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+        <a href="services/fuel-stations.html" class="service-card">
+          <img src="assets/images/services/14776nfIwN32.jpg" alt="Fuel Stations" />
+          <div class="service-overlay">
+            <span class="service-title">Fuel Stations</span>
+            <span class="service-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ MEMBERSHIPS ══════════════════════════════════ -->
+  <section id="memberships">
+    <div class="memberships-inner">
+      <div class="section-center">
+        <p class="section-eyebrow">Memberships &amp; Accreditations</p>
+        <h2 class="section-title">Our Trusted Networks</h2>
+        <p class="section-body">Explore our excellent network through trusted memberships</p>
+      </div>
+      <div class="logos-flex">
+        <div class="logo-chip"><img src="assets/images/membership/14462vS3D.png" alt="Membership" /></div>
+        <div class="logo-chip"><img src="assets/images/membership/799064odbtX3IG6L.png" alt="Membership" /></div>
+        <div class="logo-chip"><img src="assets/images/membership/95453fw3RyWNiTFl.png" alt="Membership" /></div>
+        <div class="logo-chip"><img src="assets/images/membership/20718iImMovjsZ.png" alt="Membership" /></div>
+        <div class="logo-chip"><img src="assets/images/membership/5386msIKdt8E4V.png" alt="Membership" /></div>
+        <div class="logo-chip"><img src="assets/images/membership/82894UCrce02.png" alt="Membership" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ TESTIMONIALS ══════════════════════════════════ -->
+  <section id="testimonials">
+    <div class="testi-inner">
+      <div class="section-center">
+        <p class="section-eyebrow">Testimonials</p>
+        <h2 class="section-title">What Our Clients Say About Us</h2>
+        <p class="section-body">Our clients love working with our team!</p>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testi-text">"We've consistently been impressed by Azmeraw Bekele Import &amp; Export with professionalism, reliability, and competitive pricing. Their team is always responsive and goes the extra mile to ensure our needs are met. We highly recommend them to anyone looking for a trustworthy and efficient import/export partner."</p>
+          <div class="testi-author">
+            <img src="assets/images/testimonials/97020ODT1xv5U.png" alt="Global Alliance Group" />
+            <div>
+              <div class="testi-name">Global Alliance Group</div>
+              <div class="testi-role">PR Manager</div>
             </div>
-            <p class="text-black-50">Our clients love working with our team!</p>
+          </div>
         </div>
 
-        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 50,
-                "slidesPerView": 3,
-                "loop": true,
-                "pagination": {
-                    "el": "#testimonials-one__pagination",
-                    "type": "bullets",
-                    "clickable": true
-                    },
-                "navigation": {
-                    "nextEl": "#team-one__swiper-button-next",
-                    "prevEl": "#team-one__swiper-button-prev"
-                },
-                "autoplay": { "delay": 5000 },
-                "breakpoints": {
-                    "0": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 1
-                    },
-                    "375": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 1
-                    },
-                    "575": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 1
-                    },
-                    "768": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "992": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "1200": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 3
-                    }
-                }
-            }'>
-            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                        <!--Start Single Testimonials One-->
-                        <div class="testimonials-one__single">
-                            <div class="icon-box"><span class="icon-quote11"></span></div>
-                            <div class="border-left"></div>
-                            <div class="testimonials-one__single-top">
-                                <div class="img-box">
-                                    <img src="assets/images/testimonials/97020ODT1xv5U.png" alt="Testimonial-image">
-                                </div>
-
-                                <div class="title-box">
-                                    <h2><a href="#">Global Alliance Group </a></h2>
-                                    <p>PR Manager</p>
-                                </div>
-                            </div>
-
-                            <div class="testimonials-one__single-inner">
-                                <div class="content-box">
-                                    <div class="content-box-top">
-                                        <div class="text-box">
-                                        </div>
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                    </div>
-                                    <p>We've consistently been impressed by Azmeraw Bekele Import & Export with professionalism, reliability, and competitive pricing. Their team is always responsive and goes the extra mile to ensure our needs are met. We highly recommend them to anyone looking for a trustworthy and efficient import/export partner.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single Testimonials One-->
-                    </div>
-                                    <div class="swiper-slide">
-                        <!--Start Single Testimonials One-->
-                        <div class="testimonials-one__single">
-                            <div class="icon-box"><span class="icon-quote11"></span></div>
-                            <div class="border-left"></div>
-                            <div class="testimonials-one__single-top">
-                                <div class="img-box">
-                                    <img src="assets/images/testimonials/76146Iwa5SZqlL.png" alt="Testimonial-image">
-                                </div>
-
-                                <div class="title-box">
-                                    <h2><a href="#">LohiaCorp</a></h2>
-                                    <p>Operation Manager</p>
-                                </div>
-                            </div>
-
-                            <div class="testimonials-one__single-inner">
-                                <div class="content-box">
-                                    <div class="content-box-top">
-                                        <div class="text-box">
-                                        </div>
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                    </div>
-                                    <p>We at LohiaCorp have been partnering with Azmeraw Bekele Import & Export for several years now, and their dedication to quality and efficiency has consistently impressed us. Their reliable service and competitive pricing have been instrumental in ensuring the smooth flow of our textile and packaging materials.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single Testimonials One-->
-                    </div>
-                                    <div class="swiper-slide">
-                        <!--Start Single Testimonials One-->
-                        <div class="testimonials-one__single">
-                            <div class="icon-box"><span class="icon-quote11"></span></div>
-                            <div class="border-left"></div>
-                            <div class="testimonials-one__single-top">
-                                <div class="img-box">
-                                    <img src="assets/images/testimonials/72023umQy.png" alt="Testimonial-image">
-                                </div>
-
-                                <div class="title-box">
-                                    <h2><a href="#">Delta Petroleum</a></h2>
-                                    <p>Operation Manager</p>
-                                </div>
-                            </div>
-
-                            <div class="testimonials-one__single-inner">
-                                <div class="content-box">
-                                    <div class="content-box-top">
-                                        <div class="text-box">
-                                        </div>
-                                        <div class="rating-box">
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                            <a href="#"><i class="icon-star"></i></a>
-                                        </div>
-                                    </div>
-                                    <p>For reliable fuel deliveries and top-notch service, Azmeraw Bekele Import & Export is the clear choice. Their efficient operations and dedication to customer satisfaction have kept our business running smoothly. We highly recommend them to anyone seeking a dependable import & export partner in Ethiopia.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Single Testimonials One-->
-                    </div>
-                            </div>
-        </div>
-        <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-pagination" id="testimonials-one__pagination"></div> -->
-    </div>
-</section>
-        <!-- Partners -->
-        <section class="partner brand-one brand-one--two">
-                <div class="big-title-box">Partnerships</div>
-        <div class="sec-title-style3 text-center pb-0">
-            <div class="sub-title center">
-                <div class="icon">
-                    <img src="assets/images/logos/title-marker.png" alt="">
-                </div>
-                <h3 class="text-uppercase px-3">Our Partners</h3>
+        <div class="testi-card">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testi-text">"We at LohiaCorp have been partnering with Azmeraw Bekele Import &amp; Export for several years now, and their dedication to quality and efficiency has consistently impressed us. Their reliable service and competitive pricing have been instrumental in ensuring the smooth flow of our textile and packaging materials."</p>
+          <div class="testi-author">
+            <img src="assets/images/testimonials/76146Iwa5SZqlL.png" alt="LohiaCorp" />
+            <div>
+              <div class="testi-name">LohiaCorp</div>
+              <div class="testi-role">Operation Manager</div>
             </div>
-            <p class="text-black-50 pb-3">Recognized Expertise, Trusted Connections</p>
+          </div>
         </div>
-    <div class="container">
-        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                            "0": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 1
-                            },
-                            "375": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 1
-                            },
-                            "575": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 2
-                            },
-                            "767": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 3
-                            },
-                            "991": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 4
-                            },
-                            "1199": {
-                                "spaceBetween": 30,
-                                "slidesPerView": 5
-                            }
-                        }}'>
-            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/519548Sq7k.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/519548Sq7k.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/17175m8CR5V.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/17175m8CR5V.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/53135aw3fdGY.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/53135aw3fdGY.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/37450eOI5i0Kl6Z.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/37450eOI5i0Kl6Z.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/5347KB3txlS9I.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/5347KB3txlS9I.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/78613738QmrW.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/78613738QmrW.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/34449bto5H.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/34449bto5H.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/96538mCSFr68.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/96538mCSFr68.png" alt="#">
-                        </div>
-                    </div>
-                                        <div class="swiper-slide">
-                        <div class="img-box">
-                            <img src="assets/images/partners/64333nAISdeLmjH.png" width="100" alt="#">
-                        </div>
-                        <div class="img-box2">
-                            <img src="assets/images/partners/64333nAISdeLmjH.png" alt="#">
-                        </div>
-                    </div>
-                                </div>
-        </div>
-    </div>
-</section>
-        <!-- CTA -->
-        <section class="cta-two">
-                        <div class="container">
-                            <div class="cta-two__inner">
-                                <div class="shape1"><img src="assets/images/shape/cta-v2-shape1.png" alt=""></div>
-                                <div class="shape2"><img src="assets/images/shape/cta-v2-shape2.png" alt=""></div>
-                                <div class="shape3 float-bob-x"><img src="assets/images/shape/cta-v2-shape3.png" alt=""></div>
-                                <div class="cta-two__inner-box">
-                                    <div class="title-box">
-                                        <p>Beyond borders, beyond expectations.</p>
-                                        <h2>Where quality meets innovation! We move more than goods, we move possibilities. Get a quote today.</h2>
-                                    </div>
-                    
-                                    <div class="btn-box">
-                                        <a class="thm-btn" href="request/index.html">
-                                            <span class="txt">Request a Quote</span> <i class="icon-right-arrow"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-        <!-- Footer -->
-        <footer class="footer-one footer-one--two">
-            <div class="footer-one__bg" style="background-image: url(assets/images/shape/footer-v1-bg.jpg);"></div>
-            <!-- <div class="shape1 float-bob-y"><img src="assets/images/shape/footer-v2-shape1.png" alt=""></div> -->
-            <!-- <div class="shape2 float-bob-y"><img src="assets/images/shape/footer-v2-shape2.png" alt=""></div> -->
-            <!-- Start Footer Main -->
-            <div class="footer-main">
-                <div class="container">
-                    <div class="footer-main__bottom">
-                        <div class="row">
-                            <!--Start Single Footer Widget-->
-                            <div class="col-md-3 wow fadeInUp" data-wow-delay=".1s">
-                                <div class="single-footer-widget footer-widget__about">
-                                    <div class="logo-box">
-                                        <a href="index.html"><img src="assets/images/logos/02_AzmerawBekele_Web.Logo_V2.png" alt=""></a>
-                                    </div>
-                                    <div class="footer-widget__about-inner">
-                                        <div class="footer-social-link">
-                                                                                                <a href="https://www.facebook.com/azmerawimpex" target="_blank"><i class="fab fab fa-facebook-f text-white"></i></a>
-                                                                                                <a href="https://www.linkedin.com/company/azmerawimpex/" target="_blank"><i class="fab fab fa-linkedin-in text-white"></i></a>
-                                                                                                <a href="https://t.me/azmerawimpex" target="_blank"><i class="fab fab fa-telegram text-white"></i></a>
-                                                                                    </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- Navigation -->
-                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="single-footer-widget footer-widget__links">
-                                    <div class="title">
-                                        <h5 class="text-uppercase">Navigation</h5>
-                                    </div>
-
-                                    <div class="footer-widget__links-box">
-                                        <ul>
-                                            <li><a href='faq/index.html' >FAQs</a></li><li><a href='contact-us/index.html' >Contact</a></li><li><a href='request/index.html' >Request</a></li>                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Contact US -->
-                            <div class="col-md-3 wow fadeInUp" data-wow-delay=".3s">
-                                <div class="single-footer-widget footer-widget__links services">
-                                    <div class="title">
-                                        <h5 class="text-uppercase">Contact Us</h5>
-                                    </div>
-
-                                    <div class="footer-widget__contact-box">
-                                        <ul class="text-white">
-                                            <li>
-                                                <div class="icon-box">
-                                                    <span class="fas fa-phone"></span>
-                                                </div>
-                                                <div class="content-box">
-                                                    <p>Phones</p>
-                                                    <h4><a href="tel:+251 111 275 398">
-                                                            <span>+251 111 275 398</span>
-                                                        </a>
-                                                    </h4>
-                                                    <h4><a href='tel:+251 924 896 926'>+251 924 896 926</span></a></h4>                                                </div>
-                                            </li>
-                                            
-                                            <li>
-                                                <div class="icon-box">
-                                                    <span class="fas fa-envelope"></span>
-                                                </div>
-                                                <div class="content-box">
-                                                    <p>Email</p>
-                                                    <h4><a href="mailto:info@azmerawbekele.com">
-                                                            <span>info@azmerawbekele.com</span>
-                                                        </a>
-                                                    </h4>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Visit US -->
-                            <div class="col-md-4 wow fadeInUp" data-wow-delay=".3s">
-                                <div class="single-footer-widget footer-widget__links services">
-                                    <div class="title">
-                                        <h5 class="text-uppercase">Visit Us</h5>
-                                    </div>
-
-                                    <div class="footer-widget__contact-box">
-                                        <ul>
-                                            <li>
-                                                <div class="icon-box">
-                                                    <span class="fas fa-map-location-dot"></span>
-                                                </div>
-                                                <div class="content-box">
-                                                    <p>Location</p>
-                                                    <h4>Churchill Avenue, Eshetu Mamo Building - F8 Office 801</h4>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
+        <div class="testi-card">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testi-text">"For reliable fuel deliveries and top-notch service, Azmeraw Bekele Import &amp; Export is the clear choice. Their efficient operations and dedication to customer satisfaction have kept our business running smoothly. We highly recommend them to anyone seeking a dependable import &amp; export partner in Ethiopia."</p>
+          <div class="testi-author">
+            <img src="assets/images/testimonials/72023umQy.png" alt="Delta Petroleum" />
+            <div>
+              <div class="testi-name">Delta Petroleum</div>
+              <div class="testi-role">Operation Manager</div>
             </div>
-            <!-- End Footer Main -->
-
-            <!--Start Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom__inner">
-                        <div class="copyright-text">
-                            <p>Azmeraw Bekele Import and Export<b> &copy 2026</b>. All Rights Reserved.</p>
-                        </div>
-                        <div class="copyright-menu">
-                            <p>Developed By <a href='https://gashadigital.com/' target='_blank'>Gasha Digital Technology</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Footer Bottom -->
-        </footer>
-    </div>
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler">
-            <div class="search-popup__close-icon">
-                <span class="icon-plus"></span>
-            </div>
+          </div>
         </div>
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label>
-                <input type="text" id="search" placeholder="Search Here...">
-                <button type="submit" aria-label="search submit" class="btn-box">
-                    <i class="icon-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- JS here -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/jquery.circleType.js"></script>
-    <script src="assets/js/jquery.lettering.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.odometer.min.js"></script>
-    <script src="assets/js/jquery-sidebar-content.js"></script>
-    <script src="assets/js/nouislider.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/vendor/TweenMax.min.js"></script>
+  <!-- ══════════════════════════════════ PARTNERS ══════════════════════════════════ -->
+  <section id="partners">
+    <div class="partners-inner">
+      <div class="partners-header">
+        <p class="section-eyebrow">Our Partners</p>
+        <h2 class="section-title">Recognized Expertise, Trusted Connections</h2>
+        <p>Recognized Expertise, Trusted Connections</p>
+      </div>
+      <div class="marquee-track">
+        <div class="marquee-row" id="partners-marquee">
+          <div class="partner-chip"><img src="assets/images/partners/519548Sq7k.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/17175m8CR5V.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/53135aw3fdGY.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/37450eOI5i0Kl6Z.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/5347KB3txlS9I.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/78613738QmrW.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/34449bto5H.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/96538mCSFr68.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/64333nAISdeLmjH.png" alt="Partner" /></div>
+          <!-- duplicate for seamless loop -->
+          <div class="partner-chip"><img src="assets/images/partners/519548Sq7k.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/17175m8CR5V.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/53135aw3fdGY.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/37450eOI5i0Kl6Z.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/5347KB3txlS9I.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/78613738QmrW.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/34449bto5H.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/96538mCSFr68.png" alt="Partner" /></div>
+          <div class="partner-chip"><img src="assets/images/partners/64333nAISdeLmjH.png" alt="Partner" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="assets/js/main.js"></script>
+  <!-- ══════════════════════════════════ CTA ══════════════════════════════════ -->
+  <section id="cta">
+    <div class="cta-inner">
+      <p class="cta-eyebrow">Beyond borders, beyond expectations.</p>
+      <h2 class="cta-title">Where quality meets innovation! We move more than goods, we move possibilities. Get a quote today.</h2>
+      <div class="cta-buttons">
+        <a href="request/index.html" class="btn-white">
+          Request a Quote
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="contact-us/index.html" class="btn-outline-white">Contact Our Team</a>
+      </div>
+    </div>
+  </section>
 
+  <!-- ══════════════════════════════════ FOOTER ══════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <!-- About -->
+        <div>
+          <div class="footer-logo">
+            <img src="assets/images/logos/02_AzmerawBekele_Web.Logo_V2.png" alt="Azmeraw Bekele" />
+          </div>
+          <p class="footer-tagline">Leading Ethiopian import/export and multi-sector enterprise dedicated to delivering excellence across global markets.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/azmerawimpex" class="social-link" target="_blank" rel="noreferrer" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/azmerawimpex/" class="social-link" target="_blank" rel="noreferrer" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://t.me/azmerawimpex" class="social-link" target="_blank" rel="noreferrer" title="Telegram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </a>
+          </div>
+        </div>
 
+        <!-- Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="faq/index.html">FAQs</a></li>
+            <li><a href="contact-us/index.html">Contact</a></li>
+            <li><a href="request/index.html">Request a Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4 class="footer-col-title">Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.17 11a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 3.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+              <div>
+                <a href="tel:+251111275398">+251 111 275 398</a>
+                <a href="tel:+251924896926">+251 924 896 926</a>
+              </div>
+            </li>
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <div><a href="mailto:info@azmerawbekele.com">info@azmerawbekele.com</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Visit Us -->
+        <div>
+          <h4 class="footer-col-title">Visit Us</h4>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p class="footer-address-text">
+              Churchill Avenue,<br />Eshetu Mamo Building<br />F8 Office 801<br />Addis Ababa, Ethiopia
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="footer-year"></span> Azmeraw Bekele Import &amp; Export. All rights reserved.</span>
+        <span>Developed by <span class="accent">Gasha Digital Technology</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── YEAR ──
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    // ── NAV SCROLL ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // ── MOBILE MENU ──
+    const burgerBtn = document.getElementById('burger-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+    const iconMenu  = document.getElementById('burger-icon-menu');
+    const iconClose = document.getElementById('burger-icon-close');
+    burgerBtn.addEventListener('click', () => {
+      const open = mobileNav.classList.toggle('open');
+      iconMenu.style.display  = open ? 'none'  : 'block';
+      iconClose.style.display = open ? 'block' : 'none';
+    });
+
+    // ── HERO SLIDER ──
+    const totalSlides = 3;
+    let current = 0;
+    let timer;
+
+    function goToSlide(n) {
+      document.getElementById('slide-' + current).classList.remove('active');
+      document.getElementById('text-'  + current).classList.remove('active');
+      document.querySelectorAll('.hero-dot')[current].classList.remove('active');
+      current = (n + totalSlides) % totalSlides;
+      document.getElementById('slide-' + current).classList.add('active');
+      document.getElementById('text-'  + current).classList.add('active');
+      document.querySelectorAll('.hero-dot')[current].classList.add('active');
+      document.getElementById('slide-counter').textContent = (current + 1) + ' / ' + totalSlides;
+    }
+
+    function startTimer() {
+      clearInterval(timer);
+      timer = setInterval(() => goToSlide(current + 1), 5500);
+    }
+
+    document.getElementById('slide-prev').addEventListener('click', () => { goToSlide(current - 1); startTimer(); });
+    document.getElementById('slide-next').addEventListener('click', () => { goToSlide(current + 1); startTimer(); });
+    document.querySelectorAll('.hero-dot').forEach(dot => {
+      dot.addEventListener('click', () => { goToSlide(parseInt(dot.dataset.slide)); startTimer(); });
+    });
+
+    startTimer();
+  </script>
 
 </body>
-
-
-<!-- Mirrored from azmerawbekele.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jun 2026 10:28:55 GMT -->
 </html>
