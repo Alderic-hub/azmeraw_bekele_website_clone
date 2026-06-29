@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "eu2FrXwsXAIqvBm_gWuEW"
+uri = "file://artifacts/mockup-sandbox/public/images/hero-bg.png"
+type = "image"
+title = "Ethiopian coffee agriculture landscape"
+
+[[generated]]
+id = "xjKa3di9UvZPG1R0gY_v2"
+uri = "file://artifacts/mockup-sandbox/public/images/about-image.png"
+type = "image"
+title = "Global trade logistics shipping"
+
+[[generated]]
+id = "6vUKWGmzp_EWehUTiLgYS"
+uri = "file://artifacts/mockup-sandbox/public/images/hero-ethiopia-coffee.png"
+type = "image"
+title = "Dramatic Ethiopia coffee landscape"
+
+[[generated]]
+id = "Y8rpdvkkTwepY9OKoHPrE"
+uri = "file://artifacts/mockup-sandbox/public/images/about-legacy.png"
+type = "image"
+title = "Corporate legacy import export"
+
+[[generated]]
+id = "2_8mHaJcAFBgDSZQR18pM"
+uri = "file://artifacts/mockup-sandbox/public/images/product-coffee.png"
+type = "image"
+title = "Premium Ethiopian Coffee Beans"
+
+[[generated]]
+id = "uQ1aLyT1Vu5v6t_CQmDLw"
+uri = "file://artifacts/mockup-sandbox/public/images/product-seeds.png"
+type = "image"
+title = "Premium Seeds and Pulses"
+
+[[generated]]
+id = "ftIZ2jE6Vz-mOg70CW0we"
+uri = "file://artifacts/mockup-sandbox/public/images/product-steel.png"
+type = "image"
+title = "Industrial Steel Bars"
