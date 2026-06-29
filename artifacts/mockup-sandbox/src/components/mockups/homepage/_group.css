@@ -32,6 +32,19 @@
   animation: marquee 30s linear infinite;
 }
 
+.cm-marquee-wrap {
+  overflow: hidden;
+  width: 100%;
+}
+
+.cm-marquee {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  animation: marquee 28s linear infinite;
+  width: max-content;
+}
+
 @keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
