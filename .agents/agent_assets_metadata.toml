@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "eu2FrXwsXAIqvBm_gWuEW"
@@ -42,3 +41,9 @@ id = "ftIZ2jE6Vz-mOg70CW0we"
 uri = "file://artifacts/mockup-sandbox/public/images/product-steel.png"
 type = "image"
 title = "Industrial Steel Bars"
+
+[[outputs]]
+id = "-TsUqgY0tpsfOTf-g7hm-"
+uri = "file://azmeraw-bekele-website.tar.gz"
+type = "unspecified"
+title = "Azmeraw Bekele Website"
