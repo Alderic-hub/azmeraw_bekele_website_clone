@@ -30,14 +30,10 @@ task = "shell.exec"
 args = "npx serve . -l 5000"
 waitForPort = 5000
 
-[[ports]]
-localPort = 5000
-externalPort = 80
-
-[[ports]]
-localPort = 23636
-externalPort = 3001
-
 [deployment]
 deploymentTarget = "static"
 publicDir = "."
+
+[[ports]]
+localPort = 5000
+externalPort = 80
