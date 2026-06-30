@@ -81,6 +81,7 @@ ul { list-style: none; }
 }
 .nav-logo img {
   height: 44px; object-fit: contain;
+  filter: brightness(0);
   transition: filter .35s;
 }
 /* inner page: logo is dark by default */
