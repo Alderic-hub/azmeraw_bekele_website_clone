@@ -213,8 +213,8 @@
     /* ─── STATS ─── */
     #stats {
       background: #fff; position: relative; z-index: 20;
-      margin-top: -44px; border-radius: 24px 24px 0 0;
-      box-shadow: 0 -8px 48px rgba(0,0,0,.13);
+      margin-top: 36px; border-radius: 24px 24px 0 0;
+      box-shadow: 0 -8px 48px rgba(0,0,0,.10);
     }
     .stats-inner {
       max-width: 1200px; margin: 0 auto; padding: 40px 32px;
@@ -699,19 +699,19 @@
   <section id="stats">
     <div class="stats-inner">
       <div class="stat-item">
-        <div class="stat-number">14+</div>
+        <div class="stat-number" data-count="14" data-suffix="+">14+</div>
         <div class="stat-label">Years Experience</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">6+</div>
+        <div class="stat-number" data-count="6" data-suffix="+">6+</div>
         <div class="stat-label">Services</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">11+</div>
+        <div class="stat-number" data-count="11" data-suffix="+">11+</div>
         <div class="stat-label">Products</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">500+</div>
+        <div class="stat-number" data-count="500" data-suffix="+">500+</div>
         <div class="stat-label">Satisfied Customers</div>
       </div>
     </div>
@@ -1116,6 +1116,39 @@
     });
 
     startTimer();
+
+    // ─── STAT COUNTER ──
+    (function () {
+      const statsEl = document.getElementById('stats');
+      if (!statsEl) return;
+      const counters = statsEl.querySelectorAll('.stat-number[data-count]');
+      let fired = false;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function runCounters() {
+        if (fired) return;
+        fired = true;
+        counters.forEach(el => {
+          const target = parseInt(el.dataset.count, 10);
+          const suffix = el.dataset.suffix || '';
+          if (!Number.isFinite(target)) return; // guard against bad data
+          if (reducedMotion) { el.textContent = target + suffix; return; }
+          const duration = target >= 100 ? 1800 : 1200;
+          const startTs  = performance.now();
+          (function tick(now) {
+            const p     = Math.min((now - startTs) / duration, 1);
+            const eased = 1 - Math.pow(1 - p, 3); // ease-out cubic
+            el.textContent = Math.round(eased * target) + suffix;
+            if (p < 1) requestAnimationFrame(tick);
+          })(performance.now());
+        });
+      }
+
+      const io = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) { runCounters(); io.disconnect(); }
+      }, { threshold: 0.4 });
+      io.observe(statsEl);
+    })();
   </script>
 
 </body>
